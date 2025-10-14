@@ -1,0 +1,9 @@
+.git
+.gitignore
+data/
+*.md
+README.md
+openhub
+.env
+docker-compose.yml
+Dockerfile

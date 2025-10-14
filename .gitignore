@@ -1,0 +1,18 @@
+# Binaries
+/openhub
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Coverage
+*.out
+coverage.html
+
+# Build artifacts
+dist/
+build/
+data/
