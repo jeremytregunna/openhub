@@ -40,6 +40,16 @@ OPENHUB_STORAGE=/path/to/storage ./openhub server
 
 ### Setup
 
+If you're running through docker, all these commands should be executed within
+the context of the running container. For instance:
+
+```bash
+docker exec openhub ./openhub user create alice
+```
+
+With that said, all the examples below follow the same pattern outlined above
+when run inside a Docker container.
+
 ```bash
 # Create user
 ./openhub user create alice
